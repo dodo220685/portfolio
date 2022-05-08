@@ -11,13 +11,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet"> -->
 </head>
-<body class="bg-light container">
+<body class="bg-light">
     
 <header class="container text-white bg-dark">
     
 <div class="row d-flex align-items-center">
-    <h1 class="col-4">Mi Portfolio</h1>
-    <div class="col-8">
+    <h1 class="col-sm-4">Mi Portfolio</h1>
+    <div class="col-sm-8">
 <nav class="nav justify-content-end">
     <a class="nav-link text-white" href="#Sobremi">Sobre mi</a>
     <a class="nav-link text-white" href="#Skills">Skills</a>
@@ -29,16 +29,16 @@
 </header>
 
 <main>
-    <div class="container">
-    <div id="Sobremi" class="container p-5 row d-flex align-items-center">
+    <div class="container p-3">
+    <div id="Sobremi" class=" section1 row p-5 ">
         
-        <div class="col-5 text-center">
+        <div class="col-sm-5 text-center text-white">
             <img src="rodrigo.jpg" alt="mifoto" class="img-thumbnail" height="200" width="200">
             <h1>Rodrigo do Eyo</h1>
             <h4>Profesional Freelance</h4>
             <h5>Ingeniero en Telecomunicaciones | Emprendedor</h5>
         </div>
-        <div class="col-7 text-center">
+        <div class="col-sm-7 text-center text-white d-flex align-items-center">
             <p><b>Profesional de Tecnología, con especialización en Telecomunicaciones. Estudiando y aprendiendo programación para insertarme en esta nueva rama, complementándolo con mi formación. Perfil Consultivo y emprendedor. A través de la tecnología busco facilitar y hacer mas rentables los procesos de los negocios, haciendo a su vez mas fácil la vida de las personas. Mis pasatiempos son el trail running, senderismo y paseos o viajes al aire libre en familia.</b></p>
         </div>
     </div>
@@ -46,11 +46,12 @@
     <div class="p-2"></div>
     <div id="Skills" class="container">
         <div class="row">
-        <h1 class="col-12 text-white bg-dark">Skills</h1>
+        <h1 class="col-sm-12 text-white bg-dark">Skills</h1>
         </div>
     </div>
-    <section class="container row p-4">
-        <div class="col-6">
+    <section class="container">
+        <div class=" row p-4">
+        <div class="col-sm-6">
     
             <ul>
                 <li>HTML: Básico</li>
@@ -62,7 +63,7 @@
     
         </div>
 
-        <div class="col-6">
+        <div class="col-sm-6">
             <ul>
                 <li>BootStrap: Básico</li>
                 <li>Routing & Switching: Avanzado</li>
@@ -71,17 +72,18 @@
                 
             </ul>
         </div>
-    
+    </div>
 </section>
 <div class="p-3"></div>
     <div id="Proyectos" class="container">
         <div class="row">
-        <h1 class="col-12 text-white bg-dark">Proyectos</h1>
+        <h1 class="col-sm-12 text-white bg-dark">Proyectos</h1>
         </div>
     </div>
-<section class="container p-4 row d-flex justify-content-around">
+<section class="container">
+    <div class="p-4 row d-flex justify-content-around">
 
-    <div class="col-5 card mb-3">
+    <div class="col-sm-5 card mb-3">
         <img src="img/portalWebClientes.png" class="card-img-top" alt="portalWeb">
         <div class="card-body">
             <h4 class="card-title">Portal Web</h4>
@@ -89,7 +91,7 @@
             <p>Esta página era la encargada de brindarle a los clientes datos útiles sobre su servicio. Puntos de cobro, productos, cobertura, etc.</p>
         </div>
     </div>
-    <div class="col-5 card mb-3">
+    <div class="col-sm-5 card mb-3">
         <img src="img/appSheet.png" class="card-img-top" alt="appSheet">
         <div class="card-body">
         <h4 class="card-title">APP Soporte Técnico</h4>
@@ -104,7 +106,8 @@
         <p>Web con base de datos realizada en Google APP Script donde los clientes mediante su DNI podian saber su codigo de pago eletronico y dirigirse a pagar.</p>
         </div>     -->
     </div>
-    <div class="col-5 card mb-3">
+    <div class="row p-4 row d-flex justify-content-around">
+    <div class="col-sm-5 card mb-3">
         <img src="img/dude.png" class="card-img-top" alt="dude">
         <div class="card-body">
         <h4 class="card-title">Sistema de Monitoreo de Red</h4>
@@ -112,27 +115,28 @@
         <p>Sistema DUDE que avisa los estados de dispositivos de red mediante protocolo SNMP. Integración con Telegram para el aviso en el telefono de los técnicos de guardia. </p>
         </div>
     </div>
-    <div class="col-5 card mb-3">
+    <div class="col-sm-5 card mb-3">
         <img src="img/Telecomunicaciones.jpg" class="card-img-top" alt="tele">
         <div class="card-body">
         <h4 class="card-title">Red Multiservicio para ISP</h4>
         <p>Diseño e Implementación de red multiservicio para proveedor de Internet (ISP). Datacenter de alta disponibilidad con interconexión a operadores. Nodos Multiservicio con tecnología inalámbrica y fibra óptica. Integración de red con sistema de gestión.</p>
         </div>
     </div>
-    
+</div>
+</div>
 </section>
 
 
 </main>
 <footer id="Contacto" class="container text-white bg-dark p-3 justify-content-end">
     <div class="row">
-        <div class="col-8">
+        <div class="col-sm-8">
 <h1>Contacto</h1>
 </div>
-<div class="col-2">
+<div class="col-sm-2">
 <a href="https://api.whatsapp.com/send?phone=+541166453079&texto=hola" class="btn btn-primary btn-lg active" role="button">WhatsApp</a>
 </div>
-<div class="col-2 align-items-center">
+<div class="col-sm-2 align-items-center">
     <a href="mailto:rodrigo@flexired.com.ar" class="btn btn-primary btn-lg active" role="button">Enviar Mail</a>
 </div>
 <!-- <button></button> -->
