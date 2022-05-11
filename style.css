@@ -35,9 +35,16 @@ header{
     background-size:cover;
     background-position:center;
     opacity: 0.94;
-    
-    
 }
+.resaltador {
+    transition: .4s;
+    }
+    .resaltador:hover {
+    transition: .4s;
+    background-color: rgba(3, 169, 244, 0.7) ;
+    }
+    
+
 /* main .section1 .s1Izquierda{
     width: 50%;
     font-size: larger;
